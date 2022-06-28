@@ -3,13 +3,9 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=ramshankar07&label=Profile%20views&color=0e75b6&style=flat" alt="ramshankar07" /> </p>
 
-- 🔭 I’m currently working on **Deep Learning**
-
-- 🌱 I’m currently learning **Deep Learning**
-
 - 👯 I’m looking to collaborate on **Machine Learning**
 
-- 💬 Ask me about **Flutter | deep learning**
+- 💬 Ask me about **Flutter | UX design**
 
 - 📫 How to reach me **picographer4120@gmail.com**
 
