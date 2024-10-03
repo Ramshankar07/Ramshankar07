@@ -1,7 +1,6 @@
 <h1 align="center">Hi 👋, I'm Ramshankar</h1>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=ramshankar07&label=Profile%20views&color=0e75b6&style=flat" alt="ramshankar07" /> </p>
-## Welcome to my GitHub profile!
 
 ### A little about my journey
 
