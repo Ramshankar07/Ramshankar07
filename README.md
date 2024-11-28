@@ -9,7 +9,7 @@ Since my childhood, I've been motivated by endeavors that have a meaningful impa
  If you'd like to explore the skills and knowledge I've gathered on this journey, please feel free to delve deeper into my work below.
 
 ### Current Projects and Professional Focus
-- **Working on:** Building and deploying a Language Model (LLM) into production while implementing a vector database for efficient storage and retrieval.
+- **Working on:** Building and deploying a web app for meningioma patient to connect with people who are in same timeline.
 - **Exploring:** Distributed training, inference, and optimizing LLM for performance and latency.
 - **Passionate about:** Using AI to create solutions that positively impact people's lives, whether it's through healthcare, education, or other domains.
 - **Collaborating on:** LLMs for Knowledge Graphs using unstructured data.
