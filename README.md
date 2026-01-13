@@ -2,20 +2,63 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=ramshankar07&label=Profile%20views&color=0e75b6&style=flat" alt="ramshankar07" /> </p>
 
-### A little about my journey
+**ML Systems Engineer | GPU Optimization Researcher**
 
-Since my childhood, I've been motivated by endeavors that have a meaningful impact. In my pursuit of discovering my true passion, I found myself deeply drawn to the field of AI. I am currently seeking an opportunity where I can wholeheartedly engage in this field, with the hope of giving back to society in my own way.
+I build high-performance machine learning systems with a focus on GPU optimization, model compression, and distributed training. My work spans custom CUDA kernel development, cross-platform GPU programming (NVIDIA CUDA, AMD ROCm/HIP, Apple Metal), and automated neural architecture optimization.
 
- If you'd like to explore the skills and knowledge I've gathered on this journey, please feel free to delve deeper into my work below.
+## Research Interests
 
-### Current Projects and Professional Focus
-- **Working on:** Building and deploying a web app for meningioma patient to connect with people who are in same timeline.
-- **Exploring:** Distributed training, inference, and optimizing LLM for performance and latency.
-- **Passionate about:** Using AI to create solutions that positively impact people's lives, whether it's through healthcare, education, or other domains.
-- **Collaborating on:** LLMs for Knowledge Graphs using unstructured data.
-- **Here to help:** Individuals who are starting out in AI, coding, or any related field. Feel free to reach out to me on LinkedIn!
+- GPU kernel optimization and low-level performance engineering
+- Model quantization and precision-efficient inference
+- Automated model optimization using reinforcement learning and tree search
+- Distributed training systems and parallelization strategies
+- Efficient neural network compression (pruning, knowledge distillation, early exit)
 
-- 📫 How to reach me **picographer4120@gmail.com**
+## Selected Work
+
+### ModelOpt
+
+An automated neural network optimization framework that treats model compression as a sequential decision-making problem. Uses Monte Carlo Tree Search to navigate the combinatorial space of compression configurations, discovering optimal quantization and pruning strategies without requiring gradient-based fine-tuning. Achieves 98.1% accuracy retention with 3.0× compression ratios, outperforming baseline search strategies by 13-201% across benchmark models. The MCTS formulation enables efficient exploration of the optimization landscape through learned value estimates and UCB-based action selection.
+
+### BitSkip: Quantization × Early Exit Composition
+
+Empirical analysis of composing quantization with early exit strategies for efficient inference. Investigates how reduced numerical precision interacts with adaptive computation depth—whether aggressive quantization degrades the confidence estimates that early exit relies on, and how to jointly optimize both techniques. Explores the Pareto frontier of latency, memory, and accuracy trade-offs.
+
+### Cross-Platform GPU Optimization
+
+Custom kernel implementations achieving 8.8x RMSNorm speedup and 79-83% memory bandwidth utilization on distributed 8-GPU A100 systems. Experience porting optimizations across CUDA, ROCm/HIP, and Metal backends, with focus on memory coalescing, warp-level primitives, and minimizing kernel launch overhead.
+
+## Technical Depth
+
+### Model Quantization
+
+Experience with post-training quantization (PTQ) and quantization-aware training (QAT) across INT8, INT4, and mixed-precision schemes. Familiar with techniques including symmetric/asymmetric quantization, per-channel vs per-tensor scaling, and handling outlier activations. Research focus on automating quantization configuration search rather than relying on manual sensitivity analysis.
+
+### Model Optimization
+
+Work spans structured and unstructured pruning, knowledge distillation pipelines, and neural architecture search. Particular interest in framing optimization as a search problem—using RL and tree search methods to discover compression strategies that manual approaches miss. Implemented distillation pipelines for production OCR models achieving 98% accuracy with significantly reduced parameter counts.
+
+## Experience
+
+**AI Engineer @ BulkBeings** (Summer 2025)  
+Developed distributed LLM training pipelines for 8B-70B parameter models using FSDP across A100 clusters. Built custom CUDA kernels achieving 42% training speedup. Implemented hybrid SFT-DPO training workflows combining supervised fine-tuning with direct preference optimization for alignment.
+
+**Teaching Assistant, High-Performance Computing @ Northeastern University**  
+Led TA teams supporting students with parallel computing, SLURM job scheduling, and multiprocessing on the Discovery supercomputing cluster.
+
+## Education
+
+**M.S. Information Systems** — Northeastern University (December 2025)  
+Thesis: *ModelOpt: Research Framework for Zero-Shot Computer Vision Model Optimization with Tree Search and Federated Knowledge Sharing*  
+Advisor: Professor Handan Liu
+
+## Technical Skills
+
+**GPU Programming:** CUDA, ROCm/HIP, Metal, Triton  
+**ML Frameworks:** PyTorch, DeepSpeed, FSDP, Hugging Face Transformers  
+**Quantization Tools:** bitsandbytes, GPTQ, AWQ  
+**Languages:** Python, C++, CUDA C  
+**Infrastructure:** Distributed training, SLURM, multi-node clusters
 
 
 ## 💻 Tech Stack
