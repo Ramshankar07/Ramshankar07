@@ -68,8 +68,5 @@ Advisor: Professor Handan Liu
 
 ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![CUDA](https://img.shields.io/badge/CUDA-11.2-76B900.svg)	![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=Docker&logoColor=white)
 
-
-
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=ramshankar07&show_icons=true&locale=en&layout=compact" alt="ramshankar07" /></p>
-
+]
 
