@@ -7,37 +7,6 @@
 - GPU kernel optimization and low-level performance engineering
 - Model quantization and precision-efficient inference
 
-## Selected Work
-
-### ModelOpt
-
-An automated neural network optimization framework that treats model compression as a sequential decision-making problem. Uses Monte Carlo Tree Search to navigate the combinatorial space of compression configurations, discovering optimal quantization and pruning strategies without requiring gradient-based fine-tuning.
-
-### BitSkip: Quantization × Early Exit Composition
-
-Empirical analysis of composing quantization with early exit strategies for efficient inference. Investigates how reduced numerical precision interacts with adaptive computation depth—whether aggressive quantization degrades the confidence estimates that early exit relies on, and how to jointly optimize both techniques. Explores the Pareto frontier of latency, memory, and accuracy trade-offs.
-
-### Cross-Platform GPU Optimization
-
-Custom kernel implementations achieving 8.8x RMSNorm speedup and 79-83% memory bandwidth utilization on distributed 8-GPU A100 systems. Experience porting optimizations across CUDA, ROCm/HIP, and Metal backends, with focus on memory coalescing, warp-level primitives, and minimizing kernel launch overhead.
-
-
-
-## Education
-
-**M.S. Information Systems** — Northeastern University (December 2025)  
-Thesis: *ModelOpt: Research Framework for Zero-Shot Computer Vision Model Optimization with Tree Search and Federated Knowledge Sharing*  
-Advisor: Professor Handan Liu
-
-## Technical Skills
-
-**GPU Programming:** CUDA, ROCm/HIP, Metal, Triton  
-**ML Frameworks:** PyTorch, DeepSpeed, FSDP, Hugging Face Transformers  
-**Quantization Tools:** bitsandbytes, GPTQ, AWQ  
-**Languages:** Python, C++, CUDA C  
-**Infrastructure:** Distributed training, SLURM, multi-node clusters
-
-
 ## 💻 Tech Stack
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white) ![R](https://img.shields.io/badge/R-Programming-green) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) 
 
